@@ -72,12 +72,25 @@ export default function Hero() {
           <a href={`mailto:${profile.email}`} aria-label="Email">
             <Mail size={18} />
           </a>
-          <span className="social-placeholder">
-            <Linkedin size={18} /> LinkedIn in resume
-          </span>
-          <span className="social-placeholder">
-            <Github size={18} /> GitHub in resume
-          </span>
+         <a
+  className="social-placeholder"
+  href="https://www.linkedin.com/in/puligadda-nagaraju-54a30825a/"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="LinkedIn"
+>
+  <Linkedin size={18} /> LinkedIn
+</a>
+
+<a
+  className="social-placeholder"
+  href="https://github.com/NAGARAJU403274"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="GitHub"
+>
+  <Github size={18} /> GitHub
+</a>
         </motion.div>
       </div>
 

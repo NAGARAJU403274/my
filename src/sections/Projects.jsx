@@ -7,7 +7,7 @@ import { projects } from '../data/portfolio'
 export default function Projects() {
   return (
     <section className="section section-alt" id="projects">
-      <SectionTitle eyebrow="04 / Projects" title="Selected work from the resume." text="Production-oriented projects across multiple domains and full-stack stacks." />
+      <SectionTitle eyebrow="04 / Projects" title="Skills in Action: Real-World Projects" text="Production-oriented projects across multiple domains and full-stack stacks." />
       <div className="projects-grid">
         {projects.map((project, i) => (
           <Reveal key={project.name} delay={i * 0.05}>
