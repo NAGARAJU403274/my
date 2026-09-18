@@ -7,8 +7,8 @@ export const profile = {
   location: 'Pedanandipadu, Andhra Pradesh',
   summary:
     'Full Stack Developer with 2+ years of experience designing, developing, and deploying scalable web applications using Java, Spring Boot, and the MERN Stack. Skilled in RESTful API development, microservices architecture, SQL and NoSQL database design, and JWT authentication. Delivered end-to-end software solutions across healthcare, EdTech, real estate, and cybersecurity domains. Experienced in Agile/Scrum methodologies, Git version control, CI/CD pipelines, and cloud deployment on Vercel, Render, and Supabase.',
-  photo: `${import.meta.env.BASE_URL}profile/nagaraju.png`,
-resume: `${import.meta.env.BASE_URL}resume/Puligadda_Nagaraju_Resume.docx`,
+  photo: `${import.meta.env.BASE_URL}/profile/nagaraju.png`,
+resume: `${import.meta.env.BASE_URL}/resume/Puligadda_Nagaraju_Resume.docx`,
 }
 
 export const skillGroups = [
